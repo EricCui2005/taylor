@@ -2,22 +2,28 @@ import Image from "next/image";
 
 const services = [
   {
-    title: "Roofing",
+    title: "Roof Repair & Replacement",
     description:
-      "Complete roof installation, repair, and replacement. We handle shingle, slate, and flat roofing systems for residential and commercial properties.",
+      "We diagnose leaks and replace missing shingle or slate, re-caulk around chimneys and flashing, and tar over exposed nails. Full roof replacements available for residential and commercial properties.",
     image: "/images/roofing-crew.jpg",
   },
   {
-    title: "Masonry & Brickwork",
+    title: "Gutter Repair & Cleaning",
     description:
-      "Expert brick laying, tuckpointing, and stone work. We restore and build with precision craftsmanship that stands the test of time.",
-    image: "/images/brickwork.jpg",
+      "Leaking and damaged gutters lead to interior damage to your home. If you see moss growing around your gutters or brick, you have water problems. We repair, clean, and replace gutters to protect your property.",
+    image: "/images/exterior-renovation.jpg",
   },
   {
-    title: "Chimney Repair",
+    title: "Chimney Pointing",
     description:
-      "Full chimney restoration including flashing, repointing, cap installation, and waterproofing to protect your home from the elements.",
+      "Missing mortar in chimneys leads to leaks that eventually show inside your home. We restore and repoint chimneys, repair flashing, and waterproof to prevent costly interior damage.",
     image: "/images/chimney-flashing.jpg",
+  },
+  {
+    title: "Interior & Exterior Painting",
+    description:
+      "Prep is the key to a good paint job. If your home is not sanded and prepped properly, that paint job will not last. We do it right the first time, inside and out.",
+    image: "/images/interior-painting.jpg",
   },
   {
     title: "Kitchen Remodeling",
@@ -26,16 +32,10 @@ const services = [
     image: "/images/kitchen-remodel.jpg",
   },
   {
-    title: "Interior Painting",
+    title: "Masonry & Brickwork",
     description:
-      "Professional interior painting with meticulous prep work and clean lines. We help you choose the perfect palette for every room.",
-    image: "/images/interior-painting.jpg",
-  },
-  {
-    title: "Exterior Renovation",
-    description:
-      "Siding, trim, porch restoration, and full exterior facelifts. We bring curb appeal and structural integrity to every project.",
-    image: "/images/exterior-renovation.jpg",
+      "Expert brick laying, tuckpointing, and stone work. We restore and build with precision craftsmanship that stands the test of time.",
+    image: "/images/brickwork.jpg",
   },
 ];
 
